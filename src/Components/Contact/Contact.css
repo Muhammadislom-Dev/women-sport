@@ -1,0 +1,89 @@
+.contact {
+    width: 100%;
+    height: 80vh;
+    background-color: #001756;
+    background-image: url("https://luxyantex.uz/thumb/2/xPJpGYvt-er8VoNBVDx5Cw/1920r1200/d/photo_2022-02-09_15-26-23.jpg");
+    background-repeat: no-repeat;
+    background-size: 55% 100%;
+    padding-top: 120px;
+}
+
+.contact_flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact h2 {
+    width: 100%;
+    text-align: right;
+    font-size: 45px;
+    color: #fff;
+}
+
+.di {
+    width: 500px;
+}
+
+.form_div {
+    width: 550px;
+    box-sizing: border-box;
+    height: 450px;
+}
+
+.form_div form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_div form input {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    outline: none;
+    color: #ffffffe2; 
+    font-size: 20px;
+}
+
+.one {
+    margin-top: 80px;
+}
+
+.two::-webkit-inner-spin-button,
+.two::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.form_div form input::placeholder {
+    color: #fff;
+}
+
+.form_div form button {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 75px;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    color: #000000dc;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.form_div form button:hover {
+    opacity: .8;
+}

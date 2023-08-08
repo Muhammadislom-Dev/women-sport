@@ -1,0 +1,60 @@
+header {
+  width: 100vw;
+  padding: 15px 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.37) 20%,
+    transparent 70%
+  );
+  top: 0;
+  z-index: 10000;
+  transition: all 0.2s;
+}
+
+.whiteHeader {
+  box-shadow: 0 0 30px 0 #0000004e;
+}
+
+.whiteHeader .nav_link,
+.whiteHeader .nav_logo_link,
+.whiteHeader .nav_phoneNum_link {
+  color: #000000c2;
+}
+
+.header-flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-flex nav {
+  min-width: 450px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_link {
+  color: #000;
+  font-size: 18px;
+}
+
+.nav_logo_link {
+   color: #000;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.nav_phoneNum_link {
+  display: flex;
+  align-items: center;
+   color: #000;
+}
+
+.nav_call_icon {
+  font-size: 27px;
+  margin-right: 6px;
+  color: rgb(0, 0, 206);
+}

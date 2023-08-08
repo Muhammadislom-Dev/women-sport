@@ -1,0 +1,81 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 21, 105);
+    padding-top: 150px;
+}
+
+.about_flex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.about_img_box {
+    width: 700px;
+    height: 500px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.about_picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.about_desc_box {
+    max-width: 800px;
+    padding: 40px 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    position: absolute;
+    right: 50px;
+    border: 10px solid rgb(0, 21, 105);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.about_title {
+    font-size: 50px;
+    color: #000000dd;
+    margin-bottom: 20px;
+}
+
+.about_paragraf {
+    font-size: 16px;
+    color: #000000dd;
+    line-height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 15px;
+}
+
+.about_btn {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000d7;
+    background-color: rgb(0, 21, 105);
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.about_btn:hover {
+    opacity: .8;
+}
+
+.btn_div {
+    width: 100%;
+    display: flex;
+    transform: translateY(25px);
+    align-items: center;
+    justify-content: flex-end;
+}
