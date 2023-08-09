@@ -7,7 +7,7 @@ export default function Home() {
       <div className="home">
         <div className="container">
           <div className="home_flex">
-            <h1 className="home_title">Quality textile products</h1>
+            <h1 className="home_title">Women Sports products</h1>
             <button className="home_button">Connection</button>
           </div>
         </div>
